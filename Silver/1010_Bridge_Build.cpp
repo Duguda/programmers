@@ -21,7 +21,6 @@ int main () {
     for(int i = 0; i < 30; i++) {
         memo[i][0] = memo[i][i] = 1;
     }
-
     int tcase, n, r;
 
     cin >> tcase;
